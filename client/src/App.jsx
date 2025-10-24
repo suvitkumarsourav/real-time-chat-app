@@ -2,7 +2,8 @@ import React, { useState, useEffect } from "react";
 import io from "socket.io-client";
 import "./index.css";
 
-const socket = io("http://localhost:5000");
+const socket = io("https://real-time-chat-app-1-82af.onrender.com");
+
 
 export default function App() {
   const [showWelcome, setShowWelcome] = useState(true);
